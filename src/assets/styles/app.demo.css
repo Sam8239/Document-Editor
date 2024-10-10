@@ -1,0 +1,87 @@
+/* Demo */
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #1d1916;
+}
+.row {
+    display: flex;
+    gap: 15px;
+}
+.doc-editor {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 4px 20px -8px rgba(97, 80, 68, 0.18);
+}
+.doc-editor-toolbar {
+    user-select: none;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.doc-editor-toolbar__button {
+    border: none;
+    padding: 6px;
+    background: none;
+    cursor: pointer;
+}
+.doc-editor-toolbar__button.active {
+    background: #f8f4f1;
+}
+.doc-editor-bubble-menu {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 4px 20px -8px rgba(97, 80, 68, 0.18);
+}
+.doc-editor-bubble-menu button {
+    border: none;
+    background: #1d1916;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.doc-editor-bubble-menu input {
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+}
+.comments {
+    margin-top: 48px;
+    background: #fff;
+    width: 320px;
+    max-height: 400px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 88px;
+    z-index: 1;
+    overflow-y: auto;
+}
+.comments .document-comment {
+    background: #e7edf8;
+    padding: 16px;
+    border-radius: 6px;
+}
+.comments .document-comment.active {
+    outline: 2px solid rgb(76, 76, 226);
+}

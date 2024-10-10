@@ -1,0 +1,12 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="delete-icon">
+<g id="Rectangle 44">
+<mask id="path-1-inside-1_4648_3263" fill="white">
+<rect x="4.5" y="6" width="12" height="11" rx="1"/>
+</mask>
+<rect x="4.5" y="6" width="12" height="11" rx="1" stroke="#C7482D" stroke-width="3" mask="url(#path-1-inside-1_4648_3263)"/>
+</g>
+<path id="Vector 32" d="M4.5 4L16.5 4" stroke="#C7482D" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector 33" d="M8.5 3L12.5 3" stroke="#C7482D" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</svg>
